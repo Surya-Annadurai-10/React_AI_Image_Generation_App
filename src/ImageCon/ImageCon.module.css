@@ -1,0 +1,36 @@
+.img_box{
+    color: white;
+    width: 64%;
+    height: 70vh;
+    /* background-color: rgb(26, 26, 26); */
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    /* box-shadow: 0 0 30px #E11C99; */
+}
+
+.img_box .res_img{
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #5b5b5b;
+}
+
+.img_box span{
+    color: #e11c99;
+}
+
+.loading{
+    width: 100px;
+    height: 80px;
+    
+}
+
+.cele{
+     width: 350px;
+     position: fixed;
+    z-index: 100;
+}

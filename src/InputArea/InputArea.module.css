@@ -1,0 +1,51 @@
+.input_con{
+   width: 64%;
+   height: 8%;
+   position: fixed;
+   /* background-color: red; */
+   bottom: 7%;
+   left: 18%;
+}
+
+.input_con input{
+    width: 74%;
+    height: 100%;
+    border:none;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    padding-left: 2rem;
+    font-size: 1.1rem;
+    color: white;
+    background-color: transparent;
+    outline: black;
+}
+
+.input_con input::placeholder{
+    color: rgb(144, 142, 142);
+
+}
+
+.input_con button{
+    width: 25%;
+    height:100%;
+    border:none;
+    background-color: #e11c99;
+    color: white;
+   border-radius: 32px;
+    font-size: 1.2rem;
+}
+
+.input_con form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(43, 43, 43);
+    border-radius: 40px;
+    /* background-color: yellow; */
+}
+
+.img_box{
+    
+}
